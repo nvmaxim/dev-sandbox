@@ -1,0 +1,7 @@
+<store city="Moscow">
+    <name>Tech Haven</name>
+    <employees>
+        <person role="manager">Alex</person>
+        <person role="sales">Maria</person>
+    </employees>
+</store>

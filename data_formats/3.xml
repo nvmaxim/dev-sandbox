@@ -1,0 +1,9 @@
+<network>
+    <station id="A1" status="active">
+        <temp_c>22.5</temp_c>
+        <humidity>45</humidity>
+    </station>
+    <station id="B2" status="offline">
+        <temp_c>18.0</temp_c>
+    </station>
+</network>

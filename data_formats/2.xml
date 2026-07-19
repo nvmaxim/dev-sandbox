@@ -1,0 +1,9 @@
+<kml>
+    <Document>
+        <name>Truck_Track</name>
+        <Placemark>
+            <timestamp>2026-07-16T10:00:00Z</timestamp>
+            <Point lat="52.3702" lon="4.8951" />
+        </Placemark>
+    </Document>
+</kml>

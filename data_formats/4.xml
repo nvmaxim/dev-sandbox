@@ -1,0 +1,8 @@
+<Response>
+    <Parcel id="1001" type="residential">
+        <Coordinates>
+            <lat>51.52</lat><lon>-0.15</lon>
+        </Coordinates>
+        <Price>1500000</Price>
+    </Parcel>
+</Response>
