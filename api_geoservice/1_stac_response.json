@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "id": "S2A_MSIL2A_20260115T103000",
+      "collection": "sentinel-2-l2a",
+      "properties": {
+        "eo:cloud_cover": 12.5,
+        "provider": "planetary-computer"
+      },
+      "assets": {
+        "visual": {"href": "https://alt.nst.cloud/api/stac/planetary-computer/sentinel-2-l2a/items/S2A_MSIL2A_20260115T103000/assets/visual/download"},
+        "B04": {"href": "https://alt.nst.cloud/api/stac/planetary-computer/sentinel-2-l2a/items/S2A_MSIL2A_20260115T103000/assets/B04/download"}
+      }
+    },
+    {
+      "id": "S2B_MSIL2A_20260116T103000",
+      "collection": "sentinel-2-l2a",
+      "properties": {
+        "eo:cloud_cover": 42.0,
+        "provider": "planetary-computer"
+      },
+      "assets": {
+        "visual": {"href": "https://alt.nst.cloud/api/stac/.../download"}
+      }
+    }
+  ]
+}

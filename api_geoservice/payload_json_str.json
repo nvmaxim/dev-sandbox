@@ -1,0 +1,23 @@
+{
+    "items": [
+        {
+            "provider": "planetary-computer",
+            "collection": "sentinel-2-l2a",
+            "item_id": "S2A_MSIL2A_20260115T103000",
+            "item_datetime": "2026-01-15T10:30:00Z",
+            "item_platform": "SENTINEL-2A",
+            "bbox": [
+                37.1,
+                55.2,
+                37.9,
+                55.8
+            ]
+        }
+    ],
+    "product_types": [
+        "WATER_MASK",
+        "NVDI"
+    ],
+    "comment": "автоматическа обработка маски воды и вегетации",
+    "bbox_json": "[37.1, 55.2, 37.9, 55.8]"
+}

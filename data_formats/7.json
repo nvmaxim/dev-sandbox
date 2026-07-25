@@ -1,0 +1,4 @@
+geojson_dict = {
+    "type": "Feature",
+    "properties": {"city": "Москва"}
+}

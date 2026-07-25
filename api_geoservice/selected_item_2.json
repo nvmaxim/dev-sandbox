@@ -1,0 +1,9 @@
+[
+    {
+        "item_id": "S2B_MSIL2A_20260116T103000",
+        "collection": "sentinel-2-l2a",
+        "cloud_cover": 12.5,
+        "provider": "planetary-computer",
+        "download_url": "https://alt.nst.cloud/api/stac/.../download"
+    }
+]
