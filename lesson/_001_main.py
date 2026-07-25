@@ -25,7 +25,7 @@ import pandas as pd
 
 # Чтение данных из Excel файла
 df_csv = pd.read_csv(
-    "/home/nvmaxim/Projects/bash-sql-python/lesson/data/sales_data.csv",
+    "/home/nvmaxim/Projects/dev-sandbox/lesson/data/sales_data.csv",
     sep=";",
 )
 df = df_csv
