@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "provider": "planetary-computer",
+            "bbox": [
+                37.1,
+                55.2,
+                37.9,
+                55.8
+            ]
+        }
+    ],
+    "product_name": "water_mask",
+    "comment": "abraкодабра",
+    "bbox": "[37.1, 55.2, 37.9, 55.8]"
+}
