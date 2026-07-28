@@ -1,0 +1,20 @@
+[
+    {
+        "city": "Moscow",
+        "properties": [
+            {
+                "name": "Tech Haven",
+                "staffs": [
+                    {
+                        "role": "manager",
+                        "name_person": "Alex"
+                    },
+                    {
+                        "role": "sales",
+                        "name_person": "Maria"
+                    }
+                ]
+            }
+        ]
+    }
+]
