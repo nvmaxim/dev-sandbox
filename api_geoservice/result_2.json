@@ -1,0 +1,19 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "item_id": "S2A_MSIL2A_20260115T103000",
+            "collection": "sentinel-2-l2a",
+            "properties": [
+                {
+                    "provider": "planetary-computer"
+                }
+            ],
+            "assets": [
+                {
+                    "download_url": "https://alt.nst.cloud/api/stac/planetary-computer/sentinel-2-l2a/items/S2A_MSIL2A_20260115T103000/assets/B04/download"
+                }
+            ]
+        }
+    ]
+}

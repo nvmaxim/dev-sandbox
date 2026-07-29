@@ -1,0 +1,25 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "provider": "planetary-computer",
+            "collection": "sentinel-2-l2a",
+            "bbox": [
+                37.1,
+                55.2,
+                37.9,
+                55.8
+            ]
+        }
+    ],
+    "properties": [
+        {
+            "producs_types": [
+                "WATER_MASK",
+                "NDVI"
+            ],
+            "comment": "avto",
+            "bbox_json": "[37.1, 55.2, 37.9, 55.8]"
+        }
+    ]
+}
