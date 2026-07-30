@@ -6,10 +6,15 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "duckdb>=1.5.0",
+    "fastapi>=0.141.1",
+    "geopandas>=1.1.4",
     "ipykernel>=7.2.0",
     "jupyter>=1.1.1",
     "matplotlib>=3.10.8",
+    "nest-asyncio>=1.6.0",
     "pandas>=3.0.1",
     "psycopg2-binary>=2.9.11",
+    "pydantic>=2.13.4",
     "sqlalchemy>=2.0.48",
+    "uvicorn>=0.52.0",
 ]
