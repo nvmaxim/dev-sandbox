@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: template-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: template-service
+  template:
+    metadata:
+      labels:
+        app: template-service
+    spec:
+      containers:
+      - name: api
+        image: REPLACE_ME_IMAGE_TAG
+        ports:
+        - containerPort: 8000
+        env:
+        - name: PYTHONUNBUFFERED
+          value: "1"
+        volumeMounts:
+        - name: sds-volume-data
+          mountPath: /app/data
+        - name: sds-volume-results
+          mountPath: /app/results
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8000
+          initialDelaySeconds: 10
+        resources:
+          requests:
+            memory: "8Gi"
+            cpu: "2"
+          limits:
+            memory: "16Gi"
+            cpu: "4"
+      volumes:
+      - name: sds-volume-data
+        persistentVolumeClaim:
+          claimName: sds-data-pvc
+      - name: sds-volume-results
+        persistentVolumeClaim:
+          claimName: sds-results-pvc
