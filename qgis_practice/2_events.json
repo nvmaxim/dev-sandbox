@@ -1,0 +1,6 @@
+[
+  {"event_id": 1, "event_name": "Пожар_1", "lat": 55.7558, "lon": 37.6173},
+  {"event_id": 2, "event_name": "Наводнение_1", "lat": 48.8566, "lon": 2.3522},
+  {"event_id": 3, "event_name": "Вырубка_1", "lat": -14.2350, "lon": -51.9253},
+  {"event_id": 4, "event_name": "Шторм_1", "lat": 0.0, "lon": 0.0}
+]
