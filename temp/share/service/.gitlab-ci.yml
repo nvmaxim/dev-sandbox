@@ -5,8 +5,13 @@ include:
 variables:
   SONAR_PROJECT_KEY: "tsoud-geoservices-geoservice-template"
 
+# 1. Спасаем линтер
 flake8-lint:
   image: repo.nstart.cloud/dockerhub/python:3.11-slim
 
+# 2. Спасаем SonarQube и генерируем настройки на лету
 sonarqube-scan:
   image: repo.nstart.cloud/dockerhub/sonarsource/sonar-scanner-cli:latest
+  before_script:
+    - echo "sonar.projectKey=${SONAR_PROJECT_KEY}" > sonar-project.properties
+    - echo "sonar.sources=." >> sonar-project.properties
