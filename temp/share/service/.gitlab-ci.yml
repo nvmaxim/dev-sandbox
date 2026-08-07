@@ -1,6 +1,10 @@
 include:
   - project: 'nstart/pipeline-library'
-    file: '/django-ci.yml' 
+    file: '/.django-ci.yml'
 
 variables:
-  SONAR_PROJECT_KEY: "tsoud-geoservices/geoservice-template"
+  SONAR_PROJECT_KEY: "tsoud-geoservices-geoservice-template"
+
+# Переопределяем образ, чтобы он качался из вашего локального зеркала
+flake8-lint:
+  image: repo.nstart.cloud/dockerhub/python:3.11-slim
