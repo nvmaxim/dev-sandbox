@@ -1,0 +1,6 @@
+include:
+  - project: 'pipeline-library'  # путь к проекту pipeline-library
+    file: '/django-ci.yml'       # шаблон для Python-сервисов
+
+variables:
+  SONAR_PROJECT_KEY: "geoservices-sar-water-api"
